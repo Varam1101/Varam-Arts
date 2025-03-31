@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varam - Arts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Website Name and Navigation -->
+    <header>
+        <h1>Varam - Arts</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="categories.html">Categories</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content of Home Page -->
+    <main>
+        <section class="intro">
+            <h2>Welcome to Varam - Arts!</h2>
+            <p>Explore the world of art and crafts, discover unique creations, and find inspiration for your next project.</p>
+        </section>
+
+        <section class="featured-art">
+            <h2>Featured Art & Crafts</h2>
+            <div class="art-gallery">
+                <div class="art-item">
+                    <img src="images/art1.jpg" alt="Art 1">
+                    <p>Beautiful Painting</p>
+                </div>
+                <div class="art-item">
+                    <img src="images/art2.jpg" alt="Art 2">
+                    <p>Handmade Sculpture</p>
+                </div>
+                <div class="art-item">
+                    <img src="images/art3.jpg" alt="Art 3">
+                    <p>Knitted Art Piece</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Varam - Arts. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
